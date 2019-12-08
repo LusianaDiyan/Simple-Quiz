@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <TextView
+        android:text="Jawab Pertanyaan Berikut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF0000"/>
+
+    <TextView
+        android:text="1. Persatuan Indonesia adalah sila ke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSoal1"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rgSoal1">
+        <RadioButton
+            android:text="Satu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:id="@+id/rb1A"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioButton
+            android:text="Tiga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb1B"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RadioGroup>
+
+    <TextView
+        android:text="2. Istilah yang digunakan untuk daya tarik bumi adalah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rgSoal2">
+            <RadioButton
+                android:text="Gravitasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:id="@+id/rb2A"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RadioButton
+                android:text="Imunisasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb2B"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RadioGroup>
+
+    <Button
+        android:text="SUBMIT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSubmit"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:background="#FFFF00"/>
+</LinearLayout>
